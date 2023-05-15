@@ -11,8 +11,8 @@ class Demo:
             (("notepad.exe"),),
         )
     
-# sep 1    
+# step 1    
 # torch.save(Demo(),"demo.pth")
 
-# sep 2
+# step 2
 model = torch.load("demo.pth",map_location=torch.device('cpu'))
